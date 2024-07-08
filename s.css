@@ -1,0 +1,55 @@
+body {
+  background-image: url("./x.jpg");
+  background-size: cover;
+  background-position: center right;
+}
+
+.game {
+  width: 420px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.h {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.title {
+  width: 460px;
+  background-color: rgb(69, 165, 255);
+  padding: 5px 0;
+  margin: 5px 0;
+  -webkit-text-stroke: 1px black;
+}
+
+span {
+  color: yellow;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(69, 165, 255);
+  margin: 2px;
+  font-size: 50px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square:hover {
+  cursor: pointer;
+  background-color: rgb(0, 255, 191);
+  transform: scale(1.03);
+  box-shadow: 0px 0px 20px 5px black;
+}
+
+i {
+  margin-left: 10px;
+}
